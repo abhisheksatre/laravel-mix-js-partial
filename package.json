@@ -1,0 +1,27 @@
+{
+  "name": "laravel-mix-js-partial",
+  "version": "0.1.0",
+  "description": "Laravel Mix extension for JS Partials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhisheksatre/laravel-mix-js-partial.git"
+  },
+  "homepage": "https://github.com/abhisheksatre/laravel-mix-js-partial#readme",
+  "keywords": [
+    "laravel",
+    "laravel-mix",
+    "mix",
+    "js",
+    "partials"
+  ],
+  "author": "Abhishek Satre",
+  "license": "MIT",
+  "peerDependencies": {
+    "laravel-mix": "^5.0.0"
+  },
+  "dependencies": {}
+}
