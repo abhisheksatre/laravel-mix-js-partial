@@ -1,4 +1,4 @@
-const mix = require('/Users/abhishek.sat/Sites/auto/wp-content/themes/autos/node_modules/laravel-mix');
+const mix = require('laravel-mix');
 const JsPartialTask = require('./js-partial-task');
 
 class jsPartial{
