@@ -22,6 +22,7 @@ class JsPartialTask extends Task {
 
         const {entry, mix} = this.data;
         this.tempJsFilePath = this.getTempPath(entry);
+        this.files = {get(){ return [entry] }};
 
         mix.js(entry, this.tempJsFilePath);
 
@@ -93,6 +94,8 @@ class JsPartialTask extends Task {
             fs.rmdirSync(path);
         }
     }
+
+    onChange(){}
 
 }
 module.exports = JsPartialTask;
